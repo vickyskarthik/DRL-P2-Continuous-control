@@ -1,12 +1,19 @@
 # DRL-Projects
 This is repo is based on Udacity's Nanodegree on [Deep Reinforcement Learning](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) 
 
-# Deep Q Network: Navigation
-This project repository contains the code and references to implement a DQN for solving a navigation problem in Banana Simulator.
+# Why choose Policy Based Method?
+1. Simplicity
+2. Well suited for continuous action space
+3. stochastic policy
 
-# About DQN
+# Cross Entrophy Method
 Q learning + Neural Network  = Deep Q Network 
 In DQN we use Neural Network to approximate Q table.
+
+# Hill Climbing Method
+
+# Proximal Policy Optimization
+
 
 # Environment details
 The environment is based on [Unity ML-agents](https://github.com/Unity-Technologies/ml-agents).
@@ -54,7 +61,9 @@ So far the agent is trained only using DQN which can also be implemented using D
 Also in this attempt the agent interacted with the environment but the agent can be trained using raw pixels from the environment as input.
 
 # Reference
-[1] Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. [arXiv preprint arXiv:1809.02627.] (https://github.com/Unity-Technologies/ml-agents)
+[1] John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov, [Proximal Policy Optimization Algorithms ](https://arxiv.org/abs/1707.06347)
 
-[2] R. S. Sutton and A. G. Barto, Introduction to Reinforcement Learning, 2nd ed. Cambridge, MA, USA: MIT Press, 2017
+[2] Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. [arXiv preprint arXiv:1809.02627.] (https://github.com/Unity-Technologies/ml-agents)
+
+[3] R. S. Sutton and A. G. Barto, Introduction to Reinforcement Learning, 2nd ed. Cambridge, MA, USA: MIT Press, 2017
 
