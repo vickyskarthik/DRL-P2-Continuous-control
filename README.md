@@ -73,6 +73,13 @@ The algorithm used to solve this problem is [Deep Deterministic Policy Gradient(
 ![Algorithm](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/Algorithm%20DDPG.svg)
 
 
+### OUTPUT
+
+![outputscore](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/final%20output.png)
+
+### GRAPH of Score Vs Episode 
+
+![graph](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/graph.png)
 
 ### Future Works
 So far the agent is trained only using DDPG which can also be implemented using the following algorithms
