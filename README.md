@@ -42,7 +42,13 @@ The algorithm used to solve this problem is [Deep Deterministic Policy Gradient(
 ![Algorithm](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/Algorithm%20DDPG.svg)
 
 # Future Works
-So far the agent is trained only using DQN which can also be implemented using Double DQN and Pritorized Experience Replay and Dueling DQN to increase their performance.   
+So far the agent is trained only using DDPG which can also be implemented using the following algorithms
+1. Proximal Policy Optimization(PPO)
+2. Generalized Advantage Estimation(GAE)
+3. Advantage Actor Critic(A2C)
+4. Asynchronous Advantage Actor-Critic(A3C)
+5. Distributed Distributional Deterministic Policy Gradients(D4PG)
+   
 Also in this attempt the agent interacted with the environment but the agent can be trained using raw pixels from the environment as input.
 
 # Reference
