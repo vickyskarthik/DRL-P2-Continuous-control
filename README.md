@@ -1,7 +1,7 @@
 # DRL-Projects
 This is repo is based on Udacity's Nanodegree on [Deep Reinforcement Learning](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) 
 
-# Deep Q Network: Navigation
+# Continuous Navigation
 This project repository contains the code and references to implement a DQN for solving a navigation problem in Banana Simulator.
 
 # About DQN
