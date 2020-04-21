@@ -1,8 +1,8 @@
 # DRL-Projects
 This is repo is based on Udacity's Nanodegree on [Deep Reinforcement Learning](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) 
 
-
-# Continuous Navigation
+![Reacher](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/reacher.gif)
+# Continuous Control
 This project repository contains the code and references to implement a DQN for solving a navigation problem in Banana Simulator.
 =======
 # The Environment
@@ -37,6 +37,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 # Solution
 The algorithm used to solve this problem is [Deep Deterministic Policy Gradient(DDPG).](https://spinningup.openai.com/en/latest/algorithms/ddpg.html)
+
+## DDPG Algorithm
+![Algorithm](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/Algorithm%20DDPG.svg)
 
 # Future Works
 So far the agent is trained only using DQN which can also be implemented using Double DQN and Pritorized Experience Replay and Dueling DQN to increase their performance.   
