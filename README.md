@@ -72,16 +72,7 @@ The algorithm used to solve this problem is [Deep Deterministic Policy Gradient(
 ### DDPG Algorithm
 ![Algorithm](https://github.com/vickyskarthik/DRL-P2-Continuous-control/blob/master/images/Algorithm%20DDPG.svg)
 
-## Hyperparameters used
 
-| Hyperparameter           | Value  | Description                                               |
-|--------------------------|--------|-----------------------------------------------------------|
-| Buffer size              | 100000 | Maximum size of the replay buffer                         |
-| Batch size               | 128    | Batch size for sampling from replay buffer                |
-| Gamma (<b>γ</b>)         | 0.99   | Discount factor for calculating return                    |
-| Tau (<b>τ</b>)           | 0.001  | Hyperparameter for soft update of target parameters       |
-| Learning Rate Actor      | 0.0003 | Learning rate for the actor neural network                |
-| Learning Rate Critic     | 0.001  | Learning rate for the critic neural network               |
 
 ### Future Works
 So far the agent is trained only using DDPG which can also be implemented using the following algorithms
